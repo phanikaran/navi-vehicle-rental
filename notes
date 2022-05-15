@@ -1,0 +1,7 @@
+ADD_VEHICLE, ADD_BRANCH - act as ADD only, and not UPDATE
+
+Vehicle class is a concrete class for all vehicle types, since all of them share the same properties and methods
+    If vehicle types start differing, we can create separate Car, Bike etc classes extending Vehicle
+
+Vehicle types are stored as String and not Enum, since we do not know the exhaustive list of ALL vehicle types yet
+    If ALL vehicle types are known, we could change the type of vehicleType from String to Enum
